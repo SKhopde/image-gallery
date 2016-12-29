@@ -1,0 +1,48 @@
+.siteHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: cadetblue;
+}
+
+  .siteHeader__section {
+    display: flex;
+    align-items: center;
+  }
+
+    .siteHeader__item {
+      padding: 5px 15px;
+      font-size: 12px;
+    }
+
+    .siteHeaderButton {
+      cursor: pointer;
+      color: #D9E9EF;
+    }
+
+ul{
+	display: flex;
+	flex-flow: row wrap;
+	outline: 0px;
+	margin:0px;
+	  background-color: aliceblue;
+     
+
+}
+
+
+li{
+	width: 275px;
+	height:285px;
+	margin: 10px;
+     padding: 4px;
+    justify-content: flex-start;
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: turquoise;
+
+}
+img{
+	width: 275px;
+	height: 285px;
+}
